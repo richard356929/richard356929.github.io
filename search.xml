@@ -4,37 +4,11 @@
   
     
     <entry>
-      <title>新建博文test</title>
-      <link href="/2025/04/01/%E6%96%B0%E5%BB%BA%E5%8D%9A%E6%96%87test/"/>
-      <url>/2025/04/01/%E6%96%B0%E5%BB%BA%E5%8D%9A%E6%96%87test/</url>
+      <title>1.Docker是什么？</title>
+      <link href="/2025/04/02/1-Docker%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F/"/>
+      <url>/2025/04/02/1-Docker%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F/</url>
       
-        <content type="html"><![CDATA[<h1 id="测试新增文章"><a href="#测试新增文章" class="headerlink" title="测试新增文章"></a>测试新增文章</h1><p>哈哈哈，这个事❤️文章</p><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">select</span> hello <span class="keyword">from</span> dual;</span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/2025/04/01/hello-world/"/>
-      <url>/2025/04/01/hello-world/</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>每天一个linux命令</title>
-      <link href="/2017/01/23/%E6%96%B0%E6%96%87%E7%AB%A03/"/>
-      <url>/2017/01/23/%E6%96%B0%E6%96%87%E7%AB%A03/</url>
-      
-        <content type="html"><![CDATA[<p>ls<br>find</p>]]></content>
+        <content type="html"><![CDATA[<p>Docker 是一个开源的容器化平台，用于快速打包、分发和运行应用程序。它通过将应用及其依赖封装在轻量级的容器中，实现环境隔离与跨平台一致性。</p><h3 id="核心概念"><a href="#核心概念" class="headerlink" title="核心概念"></a><strong>核心概念</strong></h3><ol><li><p><strong>镜像（Image）</strong>  </p><ul><li>类似虚拟机的快照，包含应用程序、依赖库和配置文件的静态模板。</li><li>例如：一个包含 Node.js 和项目代码的镜像。</li></ul></li><li><p><strong>容器（Container）</strong>  </p><ul><li>镜像的运行实例，轻量级且可快速启动&#x2F;停止。</li><li>多个容器共享宿主机内核，但彼此隔离。</li></ul></li><li><p><strong>仓库（Registry）</strong>  </p><ul><li>存储和分发镜像的中心仓库，如 Docker Hub（公共）或私有仓库。</li></ul></li></ol><h3 id="Docker-的优势"><a href="#Docker-的优势" class="headerlink" title="Docker 的优势"></a><strong>Docker 的优势</strong></h3><ol><li><p><strong>环境一致性</strong>  </p><ul><li>应用及其依赖被打包成容器，确保在任何环境中运行结果一致。</li></ul></li><li><p><strong>高效轻量</strong>  </p><ul><li>容器共享宿主机资源，相比虚拟机启动更快、资源占用更低。</li></ul></li><li><p><strong>易于部署</strong>  </p><ul><li>通过简单的命令（如 <code>docker run</code>）即可启动应用，无需手动配置环境。</li></ul></li><li><p><strong>弹性扩展</strong>  </p><ul><li>可快速复制容器实例以应对高负载，支持微服务架构。</li></ul></li></ol><h3 id="容器化技术的核心价值"><a href="#容器化技术的核心价值" class="headerlink" title="容器化技术的核心价值"></a><strong>容器化技术的核心价值</strong></h3><ul><li><strong>标准化交付</strong>：将应用及其依赖打包成镜像，确保环境一致性  </li><li><strong>轻量级运行</strong>：共享宿主内核，启动时间以秒计算（对比虚拟机分钟级）  </li><li><strong>快速迭代</strong>：镜像分层机制支持增量更新，构建时间显著缩短</li></ul><p><strong>容器化 vs 传统部署对比</strong>  </p><table><thead><tr><th>维度</th><th>传统部署</th><th>容器化部署</th></tr></thead><tbody><tr><td>环境配置</td><td>手动安装依赖</td><td>镜像预配置</td></tr><tr><td>启动速度</td><td>分钟级</td><td>秒级</td></tr><tr><td>资源占用</td><td>高（需独立OS）</td><td>低（共享内核）</td></tr></tbody></table><h3 id="Docker-vs-虚拟机"><a href="#Docker-vs-虚拟机" class="headerlink" title="Docker vs 虚拟机"></a><strong>Docker vs 虚拟机</strong></h3><p><strong>虚拟机架构</strong>  </p><pre><code>物理机 → Hypervisor → 虚拟机 → 操作系统 → 应用  </code></pre><p><strong>Docker架构</strong>  </p><pre><code>物理机 → Docker引擎 → 容器 → 应用（共享宿主OS内核）  </code></pre><p><strong>核心区别</strong>  </p><ul><li><strong>隔离性</strong>：虚拟机隔离OS，容器隔离进程  </li><li><strong>性能损耗</strong>：虚拟机≈10%，容器≈1%  </li><li><strong>资源占用</strong>：虚拟机GB级，容器MB级</li></ul><h3 id="Docker生态系统"><a href="#Docker生态系统" class="headerlink" title="Docker生态系统"></a><strong>Docker生态系统</strong></h3><p><strong>核心组件</strong>  </p><ol><li><p><strong>Docker Engine</strong>  </p><ul><li>服务端守护进程（dockerd）  </li><li>CLI客户端（docker命令行工具）</li></ul></li><li><p><strong>Docker Hub</strong>  </p><ul><li>全球最大镜像仓库（200万+官方&#x2F;社区镜像）  </li><li>支持镜像托管、自动化构建与协作</li></ul></li><li><p><strong>周边工具链</strong>  </p><ul><li><strong>Docker Compose</strong>：多容器编排  </li><li><strong>Docker Swarm</strong>：集群管理  </li><li><strong>Kubernetes</strong>：容器编排领域事实标准</li></ul></li></ol><h3 id="典型应用场景"><a href="#典型应用场景" class="headerlink" title="典型应用场景"></a><strong>典型应用场景</strong></h3><ol><li><strong>Web服务部署</strong>：Nginx&#x2F;Node.js&#x2F;PHP等Web应用  </li><li><strong>CI&#x2F;CD流水线</strong>：代码构建→测试→部署全流程容器化  </li><li><strong>微服务架构</strong>：服务解耦与独立扩展（如电商平台的订单&#x2F;支付服务）  </li><li><strong>开发环境隔离</strong>：为不同项目提供独立的运行环境</li></ol><h3 id="快速入门示例"><a href="#快速入门示例" class="headerlink" title="快速入门示例"></a><strong>快速入门示例</strong></h3><pre><code class="language-bash"># 运行第一个Docker容器（以Nginx为例）docker run -d -p 80:80 --name my-nginx nginx:latest</code></pre><p><strong>执行结果解析</strong>  </p><ul><li><code>-d</code>：后台运行容器  </li><li><code>-p 80:80</code>：映射宿主80端口到容器80端口  </li><li><code>nginx:latest</code>：拉取最新版Nginx镜像</li></ul><h3 id="本章后续内容预告"><a href="#本章后续内容预告" class="headerlink" title="本章后续内容预告"></a><strong>本章后续内容预告</strong></h3><ol><li>第二节：为什么选择Docker？（环境一致性、资源优化、微服务支持）  </li><li>第三节：Docker安装全平台指南（Windows&#x2F;macOS&#x2F;Linux）</li></ol><p><strong>📌 提示</strong>：建议动手实践 <code>docker run hello-world</code> 命令，体验容器化技术的极简特性。遇到问题可参考 <a href="https://docs.docker.com/">Docker官方文档</a> 或评论区提问！</p>]]></content>
       
       
       <categories>
@@ -46,7 +20,9 @@
       
         <tags>
             
-            <tag> linux命令 </tag>
+            <tag> docker </tag>
+            
+            <tag> docker学习 </tag>
             
         </tags>
       
