@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>网站配置google search console</title>
+      <link href="/2025/04/07/%E7%BD%91%E7%AB%99%E9%85%8D%E7%BD%AEgoogle-search-console/"/>
+      <url>/2025/04/07/%E7%BD%91%E7%AB%99%E9%85%8D%E7%BD%AEgoogle-search-console/</url>
+      
+        <content type="html"><![CDATA[<p>google search console 地址：<br><a href="https://search.google.com/search-console/welcome?utm_source=about-page">https://search.google.com/search-console/welcome?utm_source=about-page</a></p><p>登录google账号</p><p>在网域处输入网站域名<br><img src="https://qifei-blog-1256009448.cos.ap-chengdu.myqcloud.com/qifei-blog/20250407223939.png" alt="image.png"></p><p><img src="https://qifei-blog-1256009448.cos.ap-chengdu.myqcloud.com/qifei-blog/20250407224005.png" alt="image.png"></p><p>开始验证，登录cloudflare<br><img src="https://qifei-blog-1256009448.cos.ap-chengdu.myqcloud.com/qifei-blog/20250407224057.png" alt="image.png"></p><p>授权<br><img src="https://qifei-blog-1256009448.cos.ap-chengdu.myqcloud.com/qifei-blog/20250407224147.png" alt="image.png"></p><p><img src="https://qifei-blog-1256009448.cos.ap-chengdu.myqcloud.com/qifei-blog/20250407224209.png" alt="image.png"></p><p>完成验证<br><img src="https://qifei-blog-1256009448.cos.ap-chengdu.myqcloud.com/qifei-blog/20250407224300.png" alt="image.png"></p><p>点击左侧三条杠，选择刚绑定的域名，进入控制台首页<br><img src="https://qifei-blog-1256009448.cos.ap-chengdu.myqcloud.com/qifei-blog/20250407224445.png" alt="image.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 建站 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> google </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>hexo博客站点地图配置</title>
       <link href="/2025/04/07/hexo%E5%8D%9A%E5%AE%A2%E7%AB%99%E7%82%B9%E5%9C%B0%E5%9B%BE%E9%85%8D%E7%BD%AE/"/>
       <url>/2025/04/07/hexo%E5%8D%9A%E5%AE%A2%E7%AB%99%E7%82%B9%E5%9C%B0%E5%9B%BE%E9%85%8D%E7%BD%AE/</url>
