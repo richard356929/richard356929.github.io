@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>网站配置google Analytics</title>
+      <link href="/2025/04/07/%E7%BD%91%E7%AB%99%E9%85%8D%E7%BD%AEgoogle-Analytics/"/>
+      <url>/2025/04/07/%E7%BD%91%E7%AB%99%E9%85%8D%E7%BD%AEgoogle-Analytics/</url>
+      
+        <content type="html"><![CDATA[<p>google Analytics地址<br><a href="https://analytics.google.com/analytics/web/">https://analytics.google.com/analytics/web/</a></p><p>开始衡量<br><img src="https://qifei-blog-1256009448.cos.ap-chengdu.myqcloud.com/qifei-blog/20250407225502.png" alt="image.png"></p><p>设置账号名字（随意）， 下一步<br><img src="https://qifei-blog-1256009448.cos.ap-chengdu.myqcloud.com/qifei-blog/20250407225804.png" alt="image.png"></p><p>创建媒体资源</p><p>新增域名地址<br><a href="https://analytics.google.com/analytics/web/provision/#/provision/create">https://analytics.google.com/analytics/web/provision/#/provision/create</a></p><p>记住这个地址，以后新增域名从这里进入</p><p><img src="https://qifei-blog-1256009448.cos.ap-chengdu.myqcloud.com/qifei-blog/20250407230138.png" alt="image.png"></p><p>这里一般都选第一个<br><img src="https://qifei-blog-1256009448.cos.ap-chengdu.myqcloud.com/qifei-blog/20250407230256.png" alt="image.png"></p><p>这里一般选最后一个<br><img src="https://qifei-blog-1256009448.cos.ap-chengdu.myqcloud.com/qifei-blog/20250407230331.png" alt="image.png"></p><p>创建完成后，这里选网站，因为我门是做网站<br><img src="https://qifei-blog-1256009448.cos.ap-chengdu.myqcloud.com/qifei-blog/20250407230425.png" alt="image.png"></p><p>填写网址，右上角创建并继续<br><img src="https://qifei-blog-1256009448.cos.ap-chengdu.myqcloud.com/qifei-blog/20250407230557.png" alt="image.png"></p><p>按要求把代码放到网站中<br><img src="https://qifei-blog-1256009448.cos.ap-chengdu.myqcloud.com/qifei-blog/20250407230659.png" alt="image.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 建站 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> google </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>网站配置google search console</title>
       <link href="/2025/04/07/%E7%BD%91%E7%AB%99%E9%85%8D%E7%BD%AEgoogle-search-console/"/>
       <url>/2025/04/07/%E7%BD%91%E7%AB%99%E9%85%8D%E7%BD%AEgoogle-search-console/</url>
