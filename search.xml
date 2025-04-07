@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>hexo博客站点地图配置</title>
+      <link href="/2025/04/07/hexo%E5%8D%9A%E5%AE%A2%E7%AB%99%E7%82%B9%E5%9C%B0%E5%9B%BE%E9%85%8D%E7%BD%AE/"/>
+      <url>/2025/04/07/hexo%E5%8D%9A%E5%AE%A2%E7%AB%99%E7%82%B9%E5%9C%B0%E5%9B%BE%E9%85%8D%E7%BD%AE/</url>
+      
+        <content type="html"><![CDATA[<h2 id="站点地图（Sitemap）"><a href="#站点地图（Sitemap）" class="headerlink" title="站点地图（Sitemap）"></a>站点地图（Sitemap）</h2><p>站点地图描述了一个网站的架构。 它可以是一个任意形式的文档，用作网页设计的设计工具，也可以是列出网站中所有页面的一个网页，通常采用分级形式。这有助于访问者以及搜索引擎的爬虫找到网站中的页面。<br>站点地图为SEO带来的好处。</p><p>为搜索引擎爬虫提供可以浏览整个网站的链接；<br>为搜索引擎爬虫提供一些链接，指向动态页面或者采用其他方法比较难以到达的页面；<br>如果访问者试图访问网站所在域内并不存在的URL，那么这个访问者就会被转到“无法找到文件”的错误页面，而网站地图可以作为该页面的“准”内容。<br>说白了就是让搜索引擎的爬虫，尽可能多的收录你站点上的页面，页面收录的越多，你的网站的流量就会越大。</p><h2 id="Hexo如何生成Sitemap"><a href="#Hexo如何生成Sitemap" class="headerlink" title="Hexo如何生成Sitemap"></a>Hexo如何生成Sitemap</h2><h3 id="2-1-Google-版本"><a href="#2-1-Google-版本" class="headerlink" title="2.1 Google 版本"></a>2.1 Google 版本</h3><p>进入到根目录下，打开CMD，运行下面的命令：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-sitemap --save</span><br></pre></td></tr></table></figure><h3 id="2-2-Baidu-版本"><a href="#2-2-Baidu-版本" class="headerlink" title="2.2 Baidu 版本"></a>2.2 Baidu 版本</h3><p>进入到根目录下，打开CMD，运行下面的命令：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-baidu-sitemap --save</span><br></pre></td></tr></table></figure><h3 id="2-3-生成站点地图"><a href="#2-3-生成站点地图" class="headerlink" title="2.3 生成站点地图"></a>2.3 生成站点地图</h3><p>安装结束后，在_config.yml中找到url，改成你自己的域名。</p><p><img src="https://qifei-blog-1256009448.cos.ap-chengdu.myqcloud.com/qifei-blog/20250407222750.png" alt="image.png"></p><p>更改完成后，每次进行打包的时候，会自动在public文件夹下生成sitemap.xml和baidusitemap.xml分别用于Google和百度。</p><h2 id="3-查看"><a href="#3-查看" class="headerlink" title="3. 查看"></a>3. 查看</h2><p>将页面提交到服务器后，通过域名&#x2F;sitemap.xml或者域名&#x2F;baidusitemap.xml可以进行访问sitemap。</p><p>最后到Google或百度对应的站长工具进行提交sitemap就可以了。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 建站 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> 站点地图 </tag>
+            
+            <tag> sitemap </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Linux文本搜索利器：grep命令详解与实战指南</title>
       <link href="/2025/04/07/Linux%E6%96%87%E6%9C%AC%E6%90%9C%E7%B4%A2%E5%88%A9%E5%99%A8%EF%BC%9Agrep%E5%91%BD%E4%BB%A4%E8%AF%A6%E8%A7%A3%E4%B8%8E%E5%AE%9E%E6%88%98%E6%8C%87%E5%8D%97/"/>
       <url>/2025/04/07/Linux%E6%96%87%E6%9C%AC%E6%90%9C%E7%B4%A2%E5%88%A9%E5%99%A8%EF%BC%9Agrep%E5%91%BD%E4%BB%A4%E8%AF%A6%E8%A7%A3%E4%B8%8E%E5%AE%9E%E6%88%98%E6%8C%87%E5%8D%97/</url>
