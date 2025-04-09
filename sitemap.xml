@@ -133,41 +133,6 @@
   </url>
   
   <url>
-    <loc>https://qifeiai.top/tags/hexo/</loc>
-    <lastmod>2025-04-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://qifeiai.top/tags/%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2025-04-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://qifeiai.top/tags/github/</loc>
-    <lastmod>2025-04-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://qifeiai.top/tags/chrome/</loc>
-    <lastmod>2025-04-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://qifeiai.top/tags/%E5%A4%9A%E5%BC%80/</loc>
-    <lastmod>2025-04-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://qifeiai.top/tags/linux%E5%91%BD%E4%BB%A4/</loc>
     <lastmod>2025-04-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -176,6 +141,13 @@
   
   <url>
     <loc>https://qifeiai.top/tags/shell/</loc>
+    <lastmod>2025-04-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://qifeiai.top/tags/hexo/</loc>
     <lastmod>2025-04-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -223,6 +195,34 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>https://qifeiai.top/tags/chrome/</loc>
+    <lastmod>2025-04-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://qifeiai.top/tags/%E5%A4%9A%E5%BC%80/</loc>
+    <lastmod>2025-04-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://qifeiai.top/tags/%E5%8D%9A%E5%AE%A2/</loc>
+    <lastmod>2025-04-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://qifeiai.top/tags/github/</loc>
+    <lastmod>2025-04-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -240,14 +240,14 @@
   </url>
   
   <url>
-    <loc>https://qifeiai.top/categories/%E5%B7%A5%E5%85%B7/</loc>
+    <loc>https://qifeiai.top/categories/%E5%BB%BA%E7%AB%99/</loc>
     <lastmod>2025-04-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://qifeiai.top/categories/%E5%BB%BA%E7%AB%99/</loc>
+    <loc>https://qifeiai.top/categories/%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2025-04-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
