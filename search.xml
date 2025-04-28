@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>安装yt-dlp,下载youtube视频神器</title>
+      <link href="/2025/04/29/%E5%AE%89%E8%A3%85yt-dlp-%E4%B8%8B%E8%BD%BDyoutube%E8%A7%86%E9%A2%91%E7%A5%9E%E5%99%A8/"/>
+      <url>/2025/04/29/%E5%AE%89%E8%A3%85yt-dlp-%E4%B8%8B%E8%BD%BDyoutube%E8%A7%86%E9%A2%91%E7%A5%9E%E5%99%A8/</url>
+      
+        <content type="html"><![CDATA[<h3 id="使用-pip-安装-yt-dlp"><a href="#使用-pip-安装-yt-dlp" class="headerlink" title="使用 pip 安装 yt-dlp"></a><strong>使用 pip 安装 yt-dlp</strong></h3><p>在终端（macOS&#x2F;Linux）或命令提示符&#x2F;PowerShell（Windows）中运行以下命令：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install yt-dlp</span><br></pre></td></tr></table></figure><h4 id="国内用户加速安装（使用清华镜像源）"><a href="#国内用户加速安装（使用清华镜像源）" class="headerlink" title="国内用户加速安装（使用清华镜像源）"></a><strong>国内用户加速安装（使用清华镜像源）</strong></h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install yt-dlp -i https://pypi.tuna.tsinghua.edu.cn/simple</span><br></pre></td></tr></table></figure><h3 id="验证安装"><a href="#验证安装" class="headerlink" title="验证安装"></a><strong>验证安装</strong></h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yt-dlp --version</span><br></pre></td></tr></table></figure><p>输出类似 <code>2025.03.31</code> 的版本号即表示成功。</p><h3 id="安装-FFmpeg（可选，但强烈推荐）"><a href="#安装-FFmpeg（可选，但强烈推荐）" class="headerlink" title="安装 FFmpeg（可选，但强烈推荐）"></a><strong>安装 FFmpeg（可选，但强烈推荐）</strong></h3><p><code>yt-dlp</code> 依赖 FFmpeg 来合并视频和音频流（例如下载 YouTube 高清视频）。<br>安装方法：</p><h4 id="macOS"><a href="#macOS" class="headerlink" title="macOS"></a><strong>macOS</strong></h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 使用 Homebrew 安装</span></span><br><span class="line">brew install ffmpeg</span><br></pre></td></tr></table></figure><p>我这里报错</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">&gt; brew install ffmpeg</span><br><span class="line">Running `brew update --auto-update`...</span><br><span class="line">Warning: You are using macOS 15.</span><br><span class="line">We do not provide support for this pre-release version.</span><br><span class="line">It is expected behaviour that some formulae will fail to build in this pre-release version.</span><br><span class="line">It is expected behaviour that Homebrew will be buggy and slow.</span><br><span class="line">Do not create any issues about this on Homebrew&#x27;s GitHub repositories.</span><br><span class="line">Do not create any issues even if you think this message is unrelated.</span><br><span class="line">Any opened issues will be immediately closed without response.</span><br><span class="line">Do not ask for help from Homebrew or its maintainers on social media.</span><br><span class="line">You may ask for help in Homebrew&#x27;s discussions but are unlikely to receive a response.</span><br><span class="line">Try to figure out the problem yourself and submit a fix as a pull request.</span><br><span class="line">We will review it but may or may not accept it.</span><br><span class="line"></span><br><span class="line">Error: unknown or unsupported macOS version: :dunno</span><br></pre></td></tr></table></figure><p>通过使用miniconda安装解决</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">conda install -c conda-forge ffmpeg</span><br></pre></td></tr></table></figure><h4 id="Linux（Debian-Ubuntu）"><a href="#Linux（Debian-Ubuntu）" class="headerlink" title="Linux（Debian&#x2F;Ubuntu）"></a><strong>Linux（Debian&#x2F;Ubuntu）</strong></h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">sudo</span> apt update &amp;&amp; <span class="built_in">sudo</span> apt install ffmpeg</span><br></pre></td></tr></table></figure><h4 id="Windows"><a href="#Windows" class="headerlink" title="Windows"></a><strong>Windows</strong></h4><ol><li>下载 FFmpeg 静态构建包：<br> <a href="https://www.gyan.dev/ffmpeg/builds/">https://www.gyan.dev/ffmpeg/builds/</a></li><li>解压 zip 文件，将 <code>ffmpeg.exe</code> 所在目录添加到系统环境变量 <code>PATH</code> 中。</li></ol><p><strong>验证安装</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ffmpeg -version</span><br></pre></td></tr></table></figure><p>输出版本信息即表示成功。<br><img src="https://qifei-blog-1256009448.cos.ap-chengdu.myqcloud.com/qifei-blog/20250429043601.png" alt="image.png"></p><h3 id="基本使用示例"><a href="#基本使用示例" class="headerlink" title="基本使用示例"></a><strong>基本使用示例</strong></h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"># 下载视频（自动选择最佳画质）</span><br><span class="line">yt-dlp https://www.youtube.com/watch?v=视频ID</span><br><span class="line"></span><br><span class="line"># 指定格式（例如：最佳视频+最佳音频）</span><br><span class="line">yt-dlp -f &quot;bestvideo+bestaudio&quot; https://youtu.be/视频ID</span><br><span class="line"></span><br><span class="line"># 下载播放列表</span><br><span class="line">yt-dlp --yes-playlist https://www.youtube.com/playlist?list=播放列表ID</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 程序员 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> yt-dlp </tag>
+            
+            <tag> 下载youtube </tag>
+            
+            <tag> 下载视频 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>安装miniconda</title>
       <link href="/2025/04/29/%E5%AE%89%E8%A3%85miniconda/"/>
       <url>/2025/04/29/%E5%AE%89%E8%A3%85miniconda/</url>
@@ -101,9 +130,9 @@
       
         <tags>
             
-            <tag> linux命令 </tag>
-            
             <tag> centos </tag>
+            
+            <tag> linux命令 </tag>
             
         </tags>
       
